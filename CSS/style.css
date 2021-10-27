@@ -63,6 +63,7 @@ ul{
 	align-items: center;
 }
 
+
 .button-text{
 	color: white;
 	font-size: 20px;
@@ -74,6 +75,8 @@ ul{
 	display: inline-block;
 	vertical-align: middle;
 }
+
+
 
 .image-1{
 	width: 500px;
@@ -124,52 +127,113 @@ ul{
 
 .card-1{
 	width: 365px;
-	height: 370px;
-	background-color: #FBBA77;
+	height: 400px;
+	background-image: linear-gradient(#FBBA77,#DFA871) ;
 	color: white ;
-
+	text-align: center;
+	padding-top: 80px ;
+	padding-bottom: 30px;
+	padding-left: 0 auto;
+	padding-right: 0 auto;
 }
 
 
 
 .card-2{
 	width: 365px;
-	height: 370px;
-	background-color: #FBBA77;
+	height: 400px;
+	background-image:linear-gradient(#41EAE3,#2293B7);
 	color: white ;
-
+	text-align: center;
+	padding-top: 80px ;
+	padding-bottom: 30px;
+	padding-left: 0 auto;
+	padding-right: 0 auto;
 }
 
 .card-3{
 	width: 365px;
-	height: 370px;
-	background-color: #FBBA77;
+	height: 400px;
+	background-image:linear-gradient(#69529F,#463864);
 	color: white ;
-
+	text-align: center;
+	padding-top: 80px ;
+	padding-bottom: 30px;
+	padding-left: 0 auto;
+	padding-right: 0 auto;
 }
 
 .card-4{
 	width: 365px;
-	height: 370px;
-	background-color: #FBBA77;
+	height: 400px;
+	background-image:linear-gradient(#4386D2,#0962C5);
 	color: white ;
-
+	text-align: center;
+	padding-top: 80px ;
+	padding-bottom: 30px;
+	padding-left: 0 auto;
+	padding-right: 0 auto;
 }
 
 
 .card-5{
 	width: 365px;
-	height: 370px;
-	background-color: #FBBA77;
+	height: 400px;
+	background-image:linear-gradient(#A5A2F6,#564FD6);
 	color: white ;
-
+	text-align: center;
+	padding-top: 80px ;
+	padding-bottom: 30px;
+	padding-left: 0 auto;
+	padding-right: 0 auto;
 }
 
 .card-6{
 	width: 365px;
-	height: 370px;
-	background-color: #FBBA77;
+	height: 400px;
+	background-image:linear-gradient(#FF8088,#984141);
 	color: white ;
+	text-align: center;
+	padding-top: 80px ;
+	padding-bottom: 30px;
+	padding-left: 0 auto;
+	padding-right: 0 auto;
+}
 
+	
+
+.card-title{
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+.card-p{
+	font-size: 16px;
+	margin: 20px;
+}
+
+.read-button{
+	width: 130px;
+	height: 45px;
+	border: 2px solid white;
+	border-radius: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.read-button:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 7px 8px 25px -6px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 7px 8px 25px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 8px 25px -6px rgba(0,0,0,0.75);
+}
+
+.button:hover,.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover,.card-5:hover,.card-6:hover{
+	box-shadow: 7px 8px 25px -6px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 7px 8px 25px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 8px 25px -6px rgba(0,0,0,0.75);
 }
 /*Section-2 end*/
